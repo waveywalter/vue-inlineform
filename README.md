@@ -1,6 +1,7 @@
 # inlineform
 This component was built to facilitate the construction of inline fomrms that need to be saved. The output is formatted as html.
 
+Demo https://jsfiddle.net/Rebelyes/8fptgyw7/9/
 
 ## Project setup
 ```
