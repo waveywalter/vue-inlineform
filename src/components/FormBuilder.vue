@@ -63,7 +63,7 @@ function(){
             },
             filters:{
               removehtml(input){
-              var n = input.replace(/<input ref='inputs' v-on:click='loadeditpanel' type='text' name='[a-zA-Z0-9 ]*' value='[a-zA-Z0-9 ]*' id='[a-zA-Z0-9 ]*' disabled>/g, " [input type='text'] ")
+              var n = input.replace(/<input ref='[a-zA-Z0-9 ]*' v-on:click='loadeditpanel' type='text' name='[a-zA-Z0-9 ]*' value='[a-zA-Z0-9 ]*' id='[a-zA-Z0-9 ]*' disabled>/g, " [input type='text'] ")
               n = n.replace(/<label v-on:click='checkclick' for='[a-zA-Z0-9 ]*'>[a-zA-Z0-9 ]*<\/label><input ref='[a-zA-Z0-9 ]*' v-on:focus='checked' type='checkbox' name='[a-zA-Z0-9 ]*' value='[a-zA-Z0-9 ]*' id='[a-zA-Z0-9 ]*' disabled>/,"[input type='checkbox']")
               //var n = input.replace(/\<.*\>/, " [input type='checkbox'] ")
               return n
