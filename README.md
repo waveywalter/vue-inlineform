@@ -1,4 +1,6 @@
 # inlineform
+This component was built to facilitate the construct of inline fomrms that need to be saved. The output is formatted as html.
+
 
 ## Project setup
 ```
